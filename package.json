@@ -1,0 +1,25 @@
+{
+  "name": "slacker",
+  "version": "1.0.0",
+  "description": "A Slack bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/duncanmak/slacker.git"
+  },
+  "author": "Duncan Mak <duncan@a-chinaman.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duncanmak/slacker/issues"
+  },
+  "homepage": "https://github.com/duncanmak/slacker#readme",
+  "devDependencies": {
+    "typescript": "^1.5.3"
+  },
+  "dependencies": {
+    "slack-client": "^1.4.1"
+  }
+}
